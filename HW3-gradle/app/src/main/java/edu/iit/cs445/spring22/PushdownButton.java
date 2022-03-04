@@ -2,12 +2,9 @@ package edu.iit.cs445.spring22;
 
 public class PushdownButton {
 	
-	// keep the button status
 	private boolean pushed;
-	
-	// Connection to the bulb
 	private Switchable switchable;
-	
+
 	/**
 	 * Constructor takes the dependency injection. 
 	 */

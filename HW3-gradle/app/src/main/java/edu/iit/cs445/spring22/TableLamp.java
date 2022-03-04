@@ -3,13 +3,8 @@
  */
 package edu.iit.cs445.spring22;
 
-public class Main {
+public class TableLamp {
 
-	/**
-	 * Entry Point of the program. 
-	 * 
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		// Lightbulb as per Part 2 - Inversion of Dependency
@@ -28,20 +23,9 @@ public class Main {
 		// Part 3 - PushdownButton
 		Switchable bulb2 = new Lightbulb();
 		PushdownButton pushDownButton = new PushdownButton(bulb2); 
-		// Push the button
+		
 		pushDownButton.PushButton();
 		System.out.println();
 		pushDownButton.PushButton();
-				
-		
-		// Question from Part 3
-		// Did you need to re-build the Lightbulb when you replaced the button?
-		// Answer:
-		/*
-		 * No We don't need to re-build the bulb because we have implemented inversion of dependency
-		 * using Switchable Interface. In either case we change the Bulb or we change the Button we 
-		 * don't need to change the other component because they are not tightly coupled with each other. 
-		 */
 	}
-
 }

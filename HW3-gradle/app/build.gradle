@@ -27,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'edu.iit.cs445.spring22.Main'
+    mainClass = 'edu.iit.cs445.spring22.TableLamp'
 }
 
 tasks.named('test') {
