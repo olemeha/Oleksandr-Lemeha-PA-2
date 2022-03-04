@@ -3,6 +3,9 @@
  */
 package edu.iit.cs445.spring22;
 
+import tablelamp.button.*;
+import tablelamp.lightbulb.*;
+
 public class TableLamp {
 
 	public static void main(String[] args) {

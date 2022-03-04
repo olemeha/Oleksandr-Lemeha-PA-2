@@ -1,4 +1,6 @@
-package edu.iit.cs445.spring22;
+package tablelamp.button;
+
+import tablelamp.lightbulb.*;
 
 public class PushdownButton {
 	
@@ -10,7 +12,6 @@ public class PushdownButton {
 	 */
 	public PushdownButton(Switchable switchable) {
 		this.switchable = switchable;
-		
 		// initially it is not pushed
 		this.pushed = false; 
 	}

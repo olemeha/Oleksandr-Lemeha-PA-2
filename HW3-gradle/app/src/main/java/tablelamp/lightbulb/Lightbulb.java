@@ -1,4 +1,4 @@
-package edu.iit.cs445.spring22;
+package tablelamp.lightbulb;
 
 public class Lightbulb implements Switchable {
 	

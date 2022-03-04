@@ -6,9 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-
 import java.io.*;
+import tablelamp.lightbulb.Lightbulb;
 
 class TestLightbulb {
 
@@ -42,7 +41,7 @@ class TestLightbulb {
 		assertEquals(byteOutputStream.toString().trim(), testString2);
 	}
 
-	// Release the stdOut stream
+	// Release the stdout stream
 	@AfterEach
 	public void releaseStream() {
 		System.setOut(out);

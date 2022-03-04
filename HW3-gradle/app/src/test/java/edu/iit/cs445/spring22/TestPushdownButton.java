@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import tablelamp.button.PushdownButton;
+import tablelamp.lightbulb.Lightbulb;
 
 class TestPushdownButton {
 
@@ -47,5 +47,4 @@ class TestPushdownButton {
 	public void releaseStream() {
 		System.setOut(out);
 	}
-
 }
